@@ -5,7 +5,7 @@ This repository contains the source code of measurement tools used in 'Attack of
 
 The tools consist of 3 parts; Maintenance, originality, and security.
 
-#Measure the maintenance
+# Measure the maintenance
 
 The source codes are in 'Maintenance' directory.
 
@@ -18,7 +18,7 @@ To collect the features, there should be run the follows.
 
 2. Run `python3 CombineOne.py`
 
-#Measure the originality
+# Measure the originality
 
 The source codes are in 'Originality' directory.
 
@@ -49,7 +49,7 @@ To measure the similarity, each component will be used.
   5.1 `compare_latest_to_latest.py` compares the latest versions of altcoins.
   5.2 `compare_forking_to_latest.py` compares the past versions (forked version) of altcoins with the Bitcoin. The program can be run `python3 compare_forking_to_latest.py  [ray number]`. `[ray number]` is the number of processes which are run at the same time. The default is 1.
 
-#Measure the security
+# Measure the security
 
 The source codes are in 'Security' directory.
 
