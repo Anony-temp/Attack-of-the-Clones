@@ -16,7 +16,9 @@ The data collection process is as follows.
   1.1. `[start date]` and `[end date]` format is `%Y%m%d` like `20180101`.
   1.2. `[coin url file].csv` should be csv file. The example filename is `coin_list_git.csv`.
 
-2. Run `python3 CombineOne.py`
+2. Run `python3 CombineOne.py [start date] [end date]`
+
+  2.1. `[start date]` and `[end date]` format is `%Y%m%d` like `20180101`.
 
 # Code similarity analysis
 
