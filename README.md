@@ -16,9 +16,13 @@ The data collection process is as follows.
     1.1. `[start date]` and `[end date]` format is `%Y%m%d` like `20180101`.
     1.2. `[coin url file].csv` should be csv file. The example filename is `coin_list_git.csv`.
 
-2. Run `python3 CombineOne.py [start date] [end date]`
+2. Run `python3 CombineOne.py [output filename] [start date] [mid date] [third date] [end date]`
 
-    2.1. `[start date]` and `[end date]` format is `%Y%m%d` like `20180101`.
+    2.1. `[output filename]` is the output filename. The default is `Maintenance.csv`.
+    2.2. `[start date]` format is `%Y%m%d` like `20180101`.
+    2.3 `[mid date]` format is `%Y%m%d` like `20180701` for 6 months data.
+    2.4 `[third date]` format is `%Y%m%d` like `20181001` for 3 months data.
+    2.5 `[end date]` format is `%Y%m%d` like `20181201` for 12 months data.
 
 # Code similarity analysis
 
