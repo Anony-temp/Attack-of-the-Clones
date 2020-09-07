@@ -173,7 +173,7 @@ if __name__ == '__main__':
     end_date = '20181231'
     for opt, arg in opts:
         if opt in ('-H', '--Help'):
-            print(os.path.basename(__file__), '-s <start date> -e <end date>')
+            print(os.path.basename(__file__), '-s <start date> -h <mid date> -t <third date> -e <end date>')
             sys.exit()
         elif opt in ('-o', '--ofile'):
             ofile = arg

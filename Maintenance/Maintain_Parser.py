@@ -342,7 +342,7 @@ if __name__ == '__main__':
     dp_visible = False
     for opt, arg in opts:
         if opt in ("-h", "--help"):
-            print(FILE_NAME, '-f <coin url file name> -s <start date> -e <end date> -o <output filename>')
+            print(argv[0], '-f <coin url file name> -s <start date> -e <end date> -o <output filename>')
             sys.exit()
         elif opt in ("-f", "--file"):
             filename = arg
