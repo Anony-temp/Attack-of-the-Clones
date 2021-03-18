@@ -72,10 +72,3 @@ The source code is in the 'Security' directory.
 To measure the security, run `python3 CVE_Checker.py` with the patch and vulnerable codes.
 
 The dataset files are the same as the dataset, which is used in measuring maintenance and similarity.
-
-# Contributors
-
-1. Jusop Choi, Sungkyunkwan University, cjs1992@skku.edu
-2. Wonseok Choi, Sungkyunkwan University, wschoi93@gmail.com
-3. William Aiken, Sungkyunkwan University, billzo.aiken@gmail.com
-4. Hyoungshick Kim, Sungkyunkwan University, hyoung@skku.edu
