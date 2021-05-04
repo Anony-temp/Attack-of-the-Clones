@@ -50,7 +50,7 @@ class Downloader:
 
     def readCSV(self, filename):
         # Symbol, Url, Note, Lang
-        fp = open(filename, 'r')
+        fp = open(filename, 'r', encoding='utf-8', errors='ignore')
         lines = fp.readlines()
         fp.close()
         for line in lines:
