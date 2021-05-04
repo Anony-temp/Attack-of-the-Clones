@@ -46,7 +46,7 @@ class CombineOne:
     def Gather(self):
         filepath = self.searchFiles('raw_data', [])
         for filename in filepath:
-            fp = open(filename, 'r')
+            fp = open(filename, 'r', encoding='utf-8', errors='ignore')
             lines = fp.readlines()
             fp.close()
             fp = open(self.log_filename,'a')
