@@ -51,7 +51,7 @@ To measure the similarity, each component will be used.
 
     3.1. `determine_forking.py` determines the forking time candidates with the Heuristic method 1 and 2 (the detailed is shown in the paper).
     
-    3.2. `final_choice_forking_time.py` determines the forking time with a threshold fixed in `dtermine_forking.py` results.
+    3.2. `final_choice_forking_time.py` determines the forking time with a threshold fixed in `determine_forking.py` results.
   
 4. `unzip_coins`
 
