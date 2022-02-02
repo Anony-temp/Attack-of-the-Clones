@@ -72,3 +72,14 @@ The source code is in the 'Security' directory.
 To measure the security, run `python3 CVE_Checker.py` with the patch and vulnerable codes.
 
 The dataset files are the same as the dataset, which is used in measuring maintenance and similarity.
+
+# Authors
+
++ Jusop Choi (cjs1992@skku.edu), Sungkyunkwan University
++ Wonseok Choi (wschoi93@gmail.com), Sungkyunkwan University
++ William Aiken (billzo.aiken@gmail.com), Sungkyunkwan University
++ Hyoungshick Kim (hyoung@skku.edu), Sungkyunkwan University
++ Jun Ho Huh (junho.huh@samsung.com), Samsung Research
++ Taesoo Kim (taesoo@gatech.edu), Goergia Institute of Technology
++ Yongdae Kim (kyd@cs.umn.edu), Korea Advanced Institute of Science and Technology
++ Ross Anderson (ross.anderson@cl.cam.ac.uk), Cambridge University
