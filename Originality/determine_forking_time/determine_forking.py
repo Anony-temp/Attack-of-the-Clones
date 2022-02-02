@@ -124,9 +124,6 @@ class Determine_Forking:
                             continue
                         tmp = partial.split('Commits on ')[1].split('</div>')[0].replace('\n', '').replace(' ', '')
                         date = tmp.split(',')[1] + self.Months.get(tmp[:3], '13') + '0' * (2 - len(tmp[3:].split(',')[0])) + tmp[3:].split(',')[0]
-                        if date > '20181026':
-                            chk_last = True
-                            break
                         commits = partial.split('class="table-list-cell"')
                         for commit in commits[::-1][:-1]:
                             datetime = commit.split('datetime="')[1].split('T')[0].replace('-', '')
@@ -332,8 +329,6 @@ class Determine_Forking:
                         tmp = partial.split('Commits on ')[1].split('</div>')[0].replace('\n','').replace(' ','')
                         date = tmp.split(',')[1] + self.Months.get(tmp[:3], '13') + '0' * (2 - len(tmp[3:].split(',')[0])) + tmp[3:].split(',')[0]
                         commits = partial.split('class="table-list-cell"')
-                        if date < '20110510':
-                            continue
                         for commit in commits[::-1][:-1]:
                             datetime = commit.split('datetime="')[1].split('T')[0].replace('-','')
                             title = ''
